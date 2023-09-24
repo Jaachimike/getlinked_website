@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className=" bg-[#150E28] h-[10dvh]  ">
+    <header className=" bg-[#150E28] h-[10dvh]  border-solid border-b-[1px] border-white border-opacity-20     ">
       <div className=" max-w-7xl mx-auto flex justify-between  h-full items-center">
         <div>
           {/* LOGO */}
@@ -33,7 +33,7 @@ const Header = () => {
           </nav>
 
           {/* REGISTER BUTTON  */}
-          <div className=" px-6 py-1 ml-16 bg-gradient-to-r from-[#D434FE] to-[#903AFF]">
+          <div className="  px-10 py-3 rounded ml-16 bg-gradient-to-r from-[#D434FE] to-[#903AFF]">
             <button>Register</button>
           </div>
         </div>
