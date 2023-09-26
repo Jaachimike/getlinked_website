@@ -8,13 +8,13 @@ import whisper_sms from "../images/grid_images/whisper_logo.svg";
 
 const Partners = () => {
   return (
-    <section className=" bg-[#150E28] pt-12 pb-32 ">
+    <section className=" bg-[#150E28] pt-12 pb-32 border-solid border-b-[1px] border-white border-opacity-20">
       <div className=" max-w-7xl mx-auto">
         {/* SECTIONS */}
         <div className=" flex flex-col items-center">
           {/* HEADER  */}
           <div className=" text-center">
-            <h2 className=" text-3xl mb-5">Partners and Sposors</h2>
+            <h2 className=" text-3xl mb-5">Partners and Sponsors</h2>
             <p className="">
               Getlinked Hackathon 1.0 is honored to have the following major{" "}
               <br /> companies as its partners and sonsors
