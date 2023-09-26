@@ -4,6 +4,9 @@ import Introduction from "../components/Introduction";
 import Rules from "../components/Rules";
 import Attributes from "../components/Attributes";
 import Faqs from "../components/Faqs";
+import Prices from "../components/Prices";
+import Partners from "../components/Partners";
+import Policy from "../components/Policy";
 
 const Homepage = () => {
   return (
@@ -13,6 +16,9 @@ const Homepage = () => {
       <Rules />
       <Attributes />
       <Faqs />
+      <Prices />
+      <Partners />
+      <Policy />
     </div>
   );
 };
