@@ -8,7 +8,7 @@ import whisper_sms from "../images/grid_images/whisper_logo.svg";
 
 const Partners = () => {
   return (
-    <section className=" bg-[#150E28] pt-12 pb-32 border-solid border-b-[1px] border-white border-opacity-20">
+    <section className="  font-monteserat bg-[#150E28] pt-12 pb-32 border-solid border-b-[1px] border-white border-opacity-20">
       <div className=" max-w-7xl mx-auto">
         {/* SECTIONS */}
         <div className=" flex flex-col items-center">

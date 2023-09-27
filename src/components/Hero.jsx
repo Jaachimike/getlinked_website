@@ -4,7 +4,7 @@ import globe_svg from "../images/hero_svg.svg";
 
 const Hero = () => {
   return (
-    <section className="bg-[#150E28] pt-6 border-solid border-b-[1px] border-white border-opacity-20">
+    <section className="  font-monteserat bg-[#150E28] pt-6 border-solid border-b-[1px] border-white border-opacity-20">
       <div className="  max-w-7xl mx-auto ">
         {/* CONTAINER DIV  */}
         <div className=" flex items-center">

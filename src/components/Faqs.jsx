@@ -3,7 +3,7 @@ import faq_svg from "../images/faq_svg.svg";
 
 const Faqs = () => {
   return (
-    <section className=" bg-[#150E28] border-solid border-b-[1px] border-white border-opacity-20 pt-28 pb-24">
+    <section className="  font-monteserat bg-[#150E28] border-solid border-b-[1px] border-white border-opacity-20 pt-28 pb-24">
       <div className=" max-w-7xl mx-auto">
         {/* SECTIONS */}
         <div className=" flex">

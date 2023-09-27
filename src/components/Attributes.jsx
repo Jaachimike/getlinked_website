@@ -3,7 +3,7 @@ import attributes_svg from "../images/attributes_svg.svg";
 
 const Attributes = () => {
   return (
-    <section className=" bg-[#150E28] border-solid border-b-[1px] border-white border-opacity-20 pt-20 pb-32">
+    <section className=" font-monteserat bg-[#150E28] border-solid border-b-[1px] border-white border-opacity-20 pt-20 pb-32">
       <div className=" max-w-7xl mx-auto">
         {/* SECTIONS */}
         <div className=" flex items-center">

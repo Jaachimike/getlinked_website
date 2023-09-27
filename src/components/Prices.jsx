@@ -4,7 +4,7 @@ import medals from ".././images/prize_medals.svg";
 
 const Prices = () => {
   return (
-    <section className=" bg-[#150E28] pt-12 pb-32 ">
+    <section className="  font-monteserat bg-[#150E28] pt-12 pb-32 ">
       <div className=" max-w-7xl mx-auto">
         {/* SECTIONS */}
         <div className=" flex items-end space-x-12">

@@ -4,7 +4,7 @@ import Padlock from "../images/08 1.svg";
 
 const Policy = () => {
   return (
-    <section className=" bg-[#150E28] pt-12 pb-32 h-screen  ">
+    <section className="  font-monteserat bg-[#150E28] pt-12 pb-32 h-screen  ">
       <div className=" max-w-7xl mx-auto">
         {/* SECTIONS */}
         <div className=" flex items-start justify-between">

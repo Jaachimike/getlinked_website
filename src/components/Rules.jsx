@@ -3,7 +3,7 @@ import Rules_svg from ".././images/Rules_svg.svg";
 
 const Rules = () => {
   return (
-    <section className=" bg-[#150E28] border-solid border-b-[1px] border-white border-opacity-20">
+    <section className="  font-monteserat bg-[#150E28] border-solid border-b-[1px] border-white border-opacity-20">
       <div className=" max-w-7xl mx-auto">
         {/* SECTIONS */}
         <div className=" flex">

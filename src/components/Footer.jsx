@@ -8,7 +8,7 @@ import phone from "../images/footer_images/phone_svg.svg";
 
 const Footer = () => {
   return (
-    <section className=" bg-[#150E28] pt-20 pb-14  ">
+    <section className="  font-monteserat bg-[#150E28] pt-20 pb-14  ">
       <div className=" max-w-7xl mx-auto">
         {/* SECTIONS  */}
         <div className=" flex justify-between mb-14">
