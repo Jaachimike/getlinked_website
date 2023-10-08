@@ -46,8 +46,11 @@ export const Contact = () => {
           {/*right side */}
           <div className=" bg-slate-800 bg-opacity-10 shadow-lg rounded-xl flex-grow">
             <div className=" max-w-[75%] mx-auto flex flex-col py-16 ">
+              <h2 className=" text-[#D434FE] font-semibold mb-2">
+                Questions or need assistance?
+              </h2>
               <h2 className=" text-[#D434FE] font-semibold mb-8">
-                Questions or need assistance? <br /> Let us know about it!
+                Let us know about it!
               </h2>
               <input
                 type="text"
@@ -66,7 +69,7 @@ export const Contact = () => {
                 id=""
                 cols="30"
                 rows="5"
-                className=" bg-slate-800 bg-opacity-10 border-2   px-6 rounded-lg mb-9"
+                className=" bg-slate-800 bg-opacity-10 border-2 placeholder-white px-6 rounded-lg mb-9"
                 placeholder="Message"
               ></textarea>
 
