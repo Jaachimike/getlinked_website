@@ -1,12 +1,14 @@
 import React from "react";
-import Hero from "../components/Hero";
-import Introduction from "../components/Introduction";
-import Rules from "../components/Rules";
-import Attributes from "../components/Attributes";
-import Faqs from "../components/Faqs";
-import Prices from "../components/Prices";
-import Partners from "../components/Partners";
-import Policy from "../components/Policy";
+import Hero from "../properties/Hero";
+import Introduction from "../properties/Introduction";
+import Rules from "../properties/Rules";
+import Attributes from "../properties/Attributes";
+import Faqs from "../properties/Faqs";
+import Prices from "../properties/Prices";
+import Partners from "../properties/Partners";
+import Policy from "../properties/Policy";
+
+import TimelinePage from "../properties/TimelinePage";
 
 const Homepage = () => {
   return (
@@ -16,6 +18,7 @@ const Homepage = () => {
       <Rules />
       <Attributes />
       <Faqs />
+      <TimelinePage />
       <Prices />
       <Partners />
       <Policy />

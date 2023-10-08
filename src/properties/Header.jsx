@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -6,9 +7,12 @@ const Header = () => {
       <div className=" max-w-7xl mx-auto flex justify-between  h-full items-center">
         <div>
           {/* LOGO */}
-          <h1 className=" text-white">
-            get<span className=" text-[#D434FE]">linked</span>
-          </h1>
+          <Link to="/" className=" text-white text-3xl font-bold">
+            <h1>
+              {" "}
+              get<span className=" text-[#D434FE]">linked</span>
+            </h1>
+          </Link>
         </div>
 
         {/* NAV LINKS AND REGISTER BUTTON */}
@@ -27,7 +31,7 @@ const Header = () => {
                 <button>FAQs</button>
               </li>
               <li>
-                <button>Contact</button>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </nav>

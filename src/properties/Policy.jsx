@@ -1,6 +1,7 @@
 import React from "react";
 import Shield from "../images/Hero Vector Image.svg";
 import Padlock from "../images/08 1.svg";
+import Tick from "../images/tick.svg";
 
 const Policy = () => {
   return (
@@ -13,7 +14,8 @@ const Policy = () => {
             {/* HEADER */}
             <div className=" mb-14">
               <h2 className=" text-3xl mb-4">
-                Privacy Policy and <br /> <span>Terms</span>
+                Privacy Policy and <br />{" "}
+                <span className=" text-[#D434FE] ">Terms</span>
               </h2>
 
               <p className=" mb-7">Last updated on September 12, 2023</p>
@@ -35,23 +37,32 @@ const Policy = () => {
                 you consent <br /> to the practices described in this policy.
               </p>
 
-              <h3>Licensing Policy</h3>
+              <h3 className=" text-[#D434FE] ">Licensing Policy</h3>
 
               <p className=" mb-5">Here are terms of our Standard License:</p>
 
-              <p className=" mb-5">
-                The Standard License grants you a non-exclusive right to <br />
-                navigate and register for our event
-              </p>
+              {/* FIRST ITEM WITH TICK */}
+              <div className=" flex items-start space-x-3">
+                <img src={Tick} alt="" />
+                <p className=" mb-5">
+                  The Standard License grants you a non-exclusive right to{" "}
+                  <br />
+                  navigate and register for our event
+                </p>
+              </div>
 
-              <p
-                className=" mb-5
+              {/* SECOND ITEM WITH TICK */}
+              <div className=" flex items-start space-x-3">
+                <img src={Tick} alt="" />
+                <p
+                  className=" mb-5
               "
-              >
-                You are licensed to use the item available at any free source{" "}
-                <br />
-                sites, for your project developement
-              </p>
+                >
+                  You are licensed to use the item available at any free source{" "}
+                  <br />
+                  sites, for your project developement
+                </p>
+              </div>
 
               <button className="self-center  w-fit  px-10 py-3  rounded  bg-gradient-to-r from-[#D434FE] to-[#903AFF] ">
                 Read More

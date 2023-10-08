@@ -1,5 +1,6 @@
 import React from "react";
 import faq_svg from "../images/faq_svg.svg";
+import Faq from "../components/Faq";
 
 const Faqs = () => {
   return (
@@ -10,7 +11,7 @@ const Faqs = () => {
           {/* LEFT SECTION */}
           <div>
             {/*FAQ TITLE*/}
-            <div>
+            <div className=" mb-9 ">
               <h2 className="text-3xl ">Frequently Ask </h2>
               <h2 className="text-3xl text-[#D434FE]">Question</h2>
               <p>
@@ -18,10 +19,15 @@ const Faqs = () => {
                 getlinked Hackathon 1.0
               </p>
             </div>
+
+            {/* FAQ COMPONENT */}
+            <div className=" w-full">
+              <Faq />
+            </div>
           </div>
 
           {/* RIGHT SECTION */}
-          <div>
+          <div className="">
             <img src={faq_svg} alt="" srcset="" />
           </div>
         </div>
